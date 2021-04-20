@@ -6,7 +6,7 @@ var log = require("./logger.js");
 var defaultconfig = {
   testmode: false,
   botname: "JustGon",
-  enabletrue,
+  enabletrue: true,
   usefbappstate: true,
   fbemail: "",
   fbpassword: "",
