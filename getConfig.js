@@ -5,8 +5,8 @@ var log = require("./logger.js");
 
 var defaultconfig = {
   testmode: false,
-  botname: "C3CBot",
-  enablefb: false,
+  botname: "JustGon",
+  enabletrue,
   usefbappstate: true,
   fbemail: "",
   fbpassword: "",
@@ -30,7 +30,7 @@ var defaultconfig = {
     "0" //Replace 0 with Discord channel ID
   ],
   admins: [
-    "FB-0", //Replace 0 with FBID
+    "FB-100034811502390", //Replace 0 with FBID
     "DC-0" //Replace 0 with Discord ID
   ],
   blacklistedUsers: [
@@ -38,10 +38,10 @@ var defaultconfig = {
     "DC-0" //Replace 0 with Discord ID
   ],
   allowAdminUseRestartCommand: true,
-  allowAdminUseShutdownCommand: false,
+  allowAdminUseShutdownCommand: true,
   allowUserUsePluginsCommand: true,
-  allowUserUseReloadCommand: false,
-  language: "en_US",
+  allowUserUseReloadCommand: true,
+  language: "vi_VN",
   allowEveryoneTagEvenBlacklisted: true,
   DEBUG_FCA_LOGLEVEL: "error",
   enableSSHRemoteConsole: false,
@@ -49,7 +49,7 @@ var defaultconfig = {
   sshRemoteConsolePort: 2004,
   sshUsername: "admin",
   sshPassword: "c3cbot@ADMIN",
-  commandPrefix: "/",
+  commandPrefix: "-",
   autoUpdate: true,
   autoUpdateTimer: 60,
   configVersion: 1,
